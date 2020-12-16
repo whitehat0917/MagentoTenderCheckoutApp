@@ -1,0 +1,16 @@
+.cls-storepickup-container.cls-mobile{ max-width: 350px; }
+.cls-times-cntr{ text-align: center; margin-top: 20px; }
+.cls-times-cntr .mobile_delivery_time{ margin-left: 20px;}
+.cls-times-cntr select{ width: 50%; margin-left: 20px; }
+.mobile_delivery_calender { width: 100%; }
+.cls-date-item { min-width: 70px; }
+.calDay .calElement{ padding: 20px 0; }
+@media only screen and (max-width: 600px) {
+    .cls-storepickup-container.cls-mobile{ display: block; }
+    .cls-storepickup-container.cls-desktop{ display: none; }
+}
+
+@media only screen and (min-width: 600px) {
+    .cls-storepickup-container.cls-mobile{ display: block; }
+    .cls-storepickup-container.cls-desktop{ display: none; }
+}
